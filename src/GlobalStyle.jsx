@@ -84,27 +84,27 @@ li {
 
 .grid-one-column {
   padding: 0 320px;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
 }
 
 .grid-two-column {
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
 .grid-three-column {
   grid-template-columns: repeat(3, 1fr);
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
 .grid-four-column{
   grid-template-columns: repeat(4,1fr) ;
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
 .grid-five-column{
   grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr ;
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
   .common-heading {
@@ -123,15 +123,17 @@ li {
 
     input, textarea{
     max-width: 50rem;
+    border-radius: 15px;
     color: ${({ theme }) => theme.colors.black};
     padding: 1.6rem 2.4rem;
     border: 1px solid ${({ theme }) => theme.colors.border};
     text-transform: uppercase;
-   box-shadow: ${({ theme }) => theme.colors.shadowSupport};
-}
-    input[type="submit"]{
+    box-shadow: ${({ theme }) => theme.colors.shadowSupport};
+  }
+  input[type="submit"]{
     max-width: 16rem;
     margin-top: 2rem;
+    border-radius: 15px;
     background-color: ${({ theme }) => theme.colors.btn};
     color: ${({ theme }) => theme.colors.white};
     padding: 1.4rem 2.2rem;
@@ -149,17 +151,18 @@ li {
     }
     
     .grid-one-column{
-      padding-bottom: 7rem;
-      padding: 0 17rem;
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+      /* padding: 0rem; */
     }
       .grid-three-column {
       grid-template-columns: 1fr 1fr;
-      padding-bottom: 7rem;
+      padding-bottom: 3rem;
     }
 
       .grid-four-column {
       grid-template-columns: 1fr 1fr 1fr;
-      padding-bottom: 7rem;
+      padding-bottom: 3rem;
     }
   }
   
@@ -171,17 +174,18 @@ li {
     
     .grid{
       gap: 3.2rem;
-      padding-bottom: 7rem;
+      padding-bottom: 3rem;
     }
 
     .grid-one-column{
-      padding-bottom: 7rem;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
       padding: 0 2rem;
     }
     
     .grid-two-column, .grid-three-column, .grid-four-column{
       grid-template-columns: repeat(2,1fr);
-      padding-bottom: 7rem;
+      padding-bottom: 3rem;
       }
 }
 

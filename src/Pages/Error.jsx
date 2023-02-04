@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { Button } from "./styles/Button";
+import { Button } from "../Components/Button";
 import { NavLink } from "react-router-dom";
 
 const Error = () => {
   return (
     <Wrapper>
-      <img src="../images/error.svg" alt="error" />
+      <img src="./Images/error.svg" alt="error" />
       <NavLink to="/">
         <Button className="btn"> Go Back</Button>
       </NavLink>

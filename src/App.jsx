@@ -3,6 +3,7 @@ import Event from './Pages/Event';
 import Blog from './Pages/Blog';
 import Inventory from './Pages/Inventory';
 import Team from './Pages/Team';
+import Error from './Pages/Error';
 import Contacts from './Pages/Contacts';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -43,6 +44,7 @@ const App = () => {
           <Route path='/inventory' element={<Inventory />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
