@@ -26,31 +26,31 @@ const Team = () => {
 
       <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="./Team/Arpit.jpeg" alt="Arpit" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Arpit Paida</h3>
+            <p>Technical Manager</p>
           </div>
         </div>
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="./Team/RahulAryan.jpg" alt="Rahul" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Rahul Aryan</h3>
+            <p>Design, PR and outreach</p>
           </div>
         </div>
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="./Team/Samyak.jpg" alt="samyak" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Samyak Joshi</h3>
+            <p>Inventory and finance</p>
           </div>
         </div>
 
@@ -282,9 +282,6 @@ const Wrapper = styled.section`
       background-color: rgba(0, 0, 0, 0.5);
       transition: all 0.2s linear;
       cursor: pointer;
-    }
-    &:hover::after {
-      width: 100%;
     }
     &:hover img {
       transform: scale(1.2);
