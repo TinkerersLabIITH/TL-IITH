@@ -93,7 +93,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/" alt="Bhanu" />
+            <img src="./Team/Pranadeepan.png" alt="Pranadeepan" />
           </figure>
           <div className="card-data">
             <h3>Pranadipan Sahoo</h3>

@@ -6,10 +6,10 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
- }
+}
 html {
-  font-size: 62.5%;
   overflow-x: hidden;
+  font-size: 62.5%;
 }
 
 body {
@@ -83,7 +83,7 @@ li {
 }
 
 .grid-one-column {
-  padding: 0 320px;
+  padding: 15px 320px;
   padding-bottom: 2rem;
 }
 
@@ -180,12 +180,39 @@ li {
     .grid-one-column{
       padding-top: 1rem;
       padding-bottom: 2rem;
-      padding: 0 2rem;
+      padding: 15px 2rem;
     }
     
     .grid-two-column, .grid-three-column, .grid-four-column{
       grid-template-columns: repeat(2,1fr);
       padding-bottom: 3rem;
+      }
+}
+
+  @media (max-width:${({ theme }) => theme.media.mobileMini}) {
+    
+    html{
+      font-size: 50%;
+    }
+    
+    .grid{
+      gap: 3.2rem;
+      padding-bottom: 3rem;
+    }
+    
+    .grid-one-column{
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      padding: 15px 2rem;
+    }
+    
+    .grid-two-column, .grid-three-column, .grid-four-column{
+      grid-template-columns: repeat(1,1fr);
+      padding-bottom: 3rem;
+    }
+    
+    .common-heading {
+        font-size: 3.2rem;
       }
 }
 

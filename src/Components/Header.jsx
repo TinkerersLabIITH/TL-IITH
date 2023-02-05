@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Header = () => {
   return (
     <MainHeader>
-      <NavLink to='/'>
+      <NavLink to='/' className="nav-link-header">
         <img src='./Images/Logo.svg'  alt='logo' className='logo'/>
       </NavLink>
       <Navbar />
@@ -22,10 +22,15 @@ const MainHeader = styled.header`
     justify-content: space-between;
     align-items: center;
 
-    .logo{
-      height: auto;
-      max-width: 35%;
+    .nav-link-header{
+      width: 15rem;
+      height: 100%;
+      .logo{
+        width: 100%;
+        height: 100%;
+      }
     }
+
 `;
 
 export default Header;

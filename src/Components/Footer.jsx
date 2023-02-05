@@ -1,30 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaDiscord, FaInstagram, FaGithub,FaFacebook,FaLinkedin,FaMapMarkerAlt,FaEnvelope,FaPhoneAlt } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaGithub, FaFacebook, FaLinkedin, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-  <Wrapper>
-    <footer>
-        <div className="footer">
+    <Wrapper>
+      <footer>
+
+
+
+        <div className="footer container grid grid-three-column">
           <div className="footer-about">
             <div>
-            <div className="footer-social">
-              <div className="footer-social--icons">
-              <div>
-                <a href="https://goo.gl/maps/Ffbim5pzKheez5948"><FaMapMarkerAlt className="icons" /> </a>
-                
+              <div className="footer-social">
+                <div className="footer-social--icons">
+                  <div>
+                    <a href="https://goo.gl/maps/Ffbim5pzKheez5948"><FaMapMarkerAlt className="icons" /> </a>
+                  </div>
+                  <h3>Location</h3>
+                </div>
+                <p>Beside Aryabatta Hostel. Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India.</p>
+              </div>
             </div>
-              </div>
-              </div>
-            <p>Beside Aryabatta Hostel. Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India.</p>
-              </div>
           </div>
 
-      
 
-     
-            <div className="footer-social">
+
+
+          <div className="footer-social">
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
@@ -46,55 +49,56 @@ const Footer = () => {
           </div>
 
 
-           <div className="footer-contact">
-            <h3>Contact us</h3>
+          <div className="footer-contact">
+            <h3>Contact's</h3>
             <div className="footer-social">
               <div className="footer-social--icons">
-              <div>
-                <FaPhoneAlt className="icons" /> 
-            </div><p>+91 70343 99330</p>
-              </div>
+                <div>
+                  <FaPhoneAlt className="icons" />
+                </div><p>+91 70343 99330</p>
+              </div> <br />
               <div className="footer-social--icons">
-              <div>
-                <a href="mailto:tl@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
-            </div><p>tl@iith.ac.in</p>
-              </div>
+                <div>
+                  <a href="mailto:tl@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
+                </div><p>tl@iith.ac.in</p>
+              </div> <br />
               <div className="footer-social--icons">
-              <div>
-                <a href="mailto:me19btech11044@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
-            </div><p>me19btech11044@iith.ac.in</p>
+                <div>
+                  <a href="mailto:me19btech11044@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
+                </div><p>me19btech11044@iith.ac.in</p>
               </div>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="footer-bottom--section">
+
+        <div className="footer-bottom--section">
           <hr />
           <div className="container grid grid-one-column">
             <p>
               @{new Date().getFullYear()} Tinkrers' Lab | IITH. All Rights Reserved
             </p>
           </div>
-        </div>  
-    </footer>
-  </Wrapper>
+        </div>
+      </footer>
+    </Wrapper>
   )
 };
 
 const Wrapper = styled.section`
 
 footer {
-    padding: 2rem 0 0rem 0;
-    background-color: ${({ theme }) => theme.colors.footer_bg};
-    h3 {
-      color: ${({ theme }) => theme.colors.hr};
-      margin-bottom: 2.4rem;
-    }
-    p {
-      color: ${({ theme }) => theme.colors.white};
-    }
-    .footer-social--icons {
-      display: flex;
+  padding: 2rem 0 0rem 0;
+  background-color: ${({ theme }) => theme.colors.footer_bg};
+  h3 {
+    color: ${({ theme }) => theme.colors.hr};
+    margin-bottom: 2.4rem;
+  }
+  p {
+    color: ${({ theme }) => theme.colors.white};
+  }
+  .footer-social--icons {
+    display: flex;
       gap: 1rem;
       div {
         padding: 0.8rem;
