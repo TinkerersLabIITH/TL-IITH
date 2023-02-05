@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="container">
         <div className="contact-form">
           <form
-            action="replace the url"
+            action="https://formspree.io/f/xyyakrln"
             method="POST"
             className="contact-inputs">
             <input

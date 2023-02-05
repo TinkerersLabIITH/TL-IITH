@@ -143,7 +143,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="./Team/GeethaBhavana.jpeg" alt="Geetha Bhavana" />
           </figure>
           <div className="card-data">
             <h3>Sai Geetha Bhavana</h3>

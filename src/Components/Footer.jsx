@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaDiscord, FaInstagram, FaGithub,FaFacebook,FaLinkedin,FaTwitter,FaMapMarkerAlt,FaEnvelope,FaPhoneAlt } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaGithub,FaFacebook,FaLinkedin,FaMapMarkerAlt,FaEnvelope,FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,7 +12,8 @@ const Footer = () => {
             <div className="footer-social">
               <div className="footer-social--icons">
               <div>
-                <FaMapMarkerAlt className="icons" /> 
+                <a href="https://goo.gl/maps/Ffbim5pzKheez5948"><FaMapMarkerAlt className="icons" /> </a>
+                
             </div>
               </div>
               </div>
@@ -27,22 +28,19 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
-                <FaFacebook className="icons" />
+                <a href="https://www.facebook.com/tl.iith/"><FaFacebook className="icons" /></a>
               </div>
               <div>
-                <FaInstagram className="icons" />
+                <a href="https://www.instagram.com/tinkererslab_iith/"><FaInstagram className="icons" /></a>
               </div>
               <div>
-                <FaLinkedin className="icons" />
+                <a href="https://www.linkedin.com/in/tinkerers-lab-iith-1298a4190/?originalSubdomain=in"><FaLinkedin className="icons" /></a>
               </div>
               <div>
-                <FaTwitter className="icons" />
+                <a href="https://discord.gg/CNMUAjFK"><FaDiscord className="icons" /></a>
               </div>
               <div>
-                <FaDiscord className="icons" />
-              </div>
-              <div>
-                <FaGithub className="icons" />
+                <a href="https://github.com/TinkerersLabIITH"><FaGithub className="icons" /></a>
               </div>
             </div>
           </div>
@@ -54,17 +52,17 @@ const Footer = () => {
               <div className="footer-social--icons">
               <div>
                 <FaPhoneAlt className="icons" /> 
-            </div><p>+91 12345 67890</p>
+            </div><p>+91 70343 99330</p>
               </div>
               <div className="footer-social--icons">
               <div>
-                <FaEnvelope className="icons" /> 
-            </div><p>me19btech11044@iith.ac.in</p>
-              </div>
-              <div className="footer-social--icons">
-              <div>
-                <FaEnvelope className="icons" /> 
+                <a href="mailto:tl@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
             </div><p>tl@iith.ac.in</p>
+              </div>
+              <div className="footer-social--icons">
+              <div>
+                <a href="mailto:me19btech11044@iith.ac.in?body=My custom mail body"><FaEnvelope className="icons" /> </a>
+            </div><p>me19btech11044@iith.ac.in</p>
               </div>
             </div>
           </div>
