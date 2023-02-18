@@ -10,7 +10,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Team/Aadil.jpeg" alt="Aadil" />
           </figure>
           <div className="card-data">
             <h3>Aadil Salim</h3>
@@ -25,31 +25,31 @@ const Team = () => {
 
       <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Team/Samyak.jpg" alt="Samyak" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Samyak Joshi</h3>
+            <p>Events, Inventory and Finance</p>
           </div>
         </div>
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Team/RahulAryan.jpg" alt="Rahul" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Rahul Aryan</h3>
+            <p>Design, PR and Outreach</p>
           </div>
         </div>
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Team/Arpit.jpeg" alt="Arpit" />
           </figure>
           <div className="card-data">
-            <h3>Jarpula Bhanu Prasad</h3>
-            <p>Technical Coordinator</p>
+            <h3>Arpit Paida</h3>
+            <p>Technical Manager</p>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ const Team = () => {
 
       <div className="card">
           <figure>
-            <img src="./Team/VarunNadimpalli.jpg" alt="varun" />
+            <img src="src/Images/Team/VarunNadimpalli.jpg" alt="varun" />
           </figure>
           <div className="card-data">
             <h3>Varun Nadimpalli</h3>
@@ -72,7 +72,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/JarpulaBhanuPrasad.jpg" alt="Bhanu" />
+            <img src="src/Images/Team/JarpulaBhanuPrasad.jpg" alt="Bhanu" />
           </figure>
           <div className="card-data">
             <h3>Jarpula Bhanu Prasad</h3>
@@ -82,7 +82,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/AbhayGupta.jpg" alt="Abhay" />
+            <img src="src/Images/Team/AbhayGupta.jpg" alt="Abhay" />
           </figure>
           <div className="card-data">
             <h3>Abhay Kumar</h3>
@@ -92,7 +92,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/" alt="Bhanu" />
+            <img src="src/Images/Team/" alt="Bhanu" />
           </figure>
           <div className="card-data">
             <h3>Pranadipan Sahoo</h3>
@@ -102,7 +102,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/Jagadeep.jpg" alt="jagadeep" />
+            <img src="src/Images/Team/Jagadeep.jpg" alt="jagadeep" />
           </figure>
           <div className="card-data">
             <h3>Jagadeep Borra</h3>
@@ -112,7 +112,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Team/some.img" alt="Bhanu" />
           </figure>
           <div className="card-data">
             <h3>Rishi Cheekatla</h3>
@@ -122,7 +122,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/TiteekshaGodambe .jpg" alt="Titeeksha" />
+            <img src="src/Images/Team/TiteekshaGodambe .jpg" alt="Titeeksha" />
           </figure>
           <div className="card-data">
             <h3>Titeeksha Godambe</h3>
@@ -132,7 +132,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/PoojithaMallina.jpg" alt="Poojitha" />
+            <img src="src/Images/Team/PoojithaMallina.jpg" alt="Poojitha" />
           </figure>
           <div className="card-data">
             <h3>Mallina Poojitha Sai </h3>
@@ -142,7 +142,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Images/some.img" alt="Bhanu" />
+            <img src="src/Images/Images/some.img" alt="Bhanu" />
           </figure>
           <div className="card-data">
             <h3>Sai Geetha Bhavana</h3>
@@ -152,7 +152,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/AnandMathapati.jpg" alt="Anand" />
+            <img src="src/Images/Team/AnandMathapati.jpg" alt="Anand" />
           </figure>
           <div className="card-data">
             <h3>Anand Mathapathi</h3>
@@ -162,7 +162,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/SriRamParuchuri.jpg" alt="Sriram" />
+            <img src="src/Images/Team/SriRamParuchuri.jpg" alt="Sriram" />
           </figure>
           <div className="card-data">
             <h3>Paruchuri SriRam</h3>
@@ -172,7 +172,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/PriteshSingh.jpg" alt="Pritesh" />
+            <img src="src/Images/Team/PriteshSingh.jpg" alt="Pritesh" />
           </figure>
           <div className="card-data">
             <h3>Pritesh Singh</h3>
@@ -182,7 +182,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/ArshArora.jpg" alt="Arsh" />
+            <img src="src/Images/Team/ArshArora.jpg" alt="Arsh" />
           </figure>
           <div className="card-data">
             <h3>Arsh Arora</h3>
@@ -192,7 +192,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/AdityaGupta.jpg" alt="Aditya" />
+            <img src="src/Images/Team/AdityaGupta.jpg" alt="Aditya" />
           </figure>
           <div className="card-data">
             <h3>Aditya Gupta</h3>
@@ -202,7 +202,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/BapatuManojKumarReddy.jpg" alt="Manoj" />
+            <img src="src/Images/Team/BapatuManojKumarReddy.jpg" alt="Manoj" />
           </figure>
           <div className="card-data">
             <h3>Manoj Kumar Reddy</h3>
@@ -212,7 +212,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/DevanshAgrawalpicture.jpg" alt="Devansh" />
+            <img src="src/Images/Team/DevanshAgrawalpicture.jpg" alt="Devansh" />
           </figure>
           <div className="card-data">
             <h3>Devansh Agrawal</h3>
@@ -222,7 +222,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/ArinKulkarni.jpg" alt="Arin" />
+            <img src="src/Images/Team/ArinKulkarni.jpg" alt="Arin" />
           </figure>
           <div className="card-data">
             <h3>Arin Kulkarni</h3>
@@ -232,7 +232,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/BanavathVishnu.jpg" alt="vishnu" />
+            <img src="src/Images/Team/BanavathVishnu.jpg" alt="vishnu" />
           </figure>
           <div className="card-data">
             <h3>Banavath Vishnu</h3>
@@ -242,7 +242,7 @@ const Team = () => {
 
         <div className="card">
           <figure>
-            <img src="./Team/TanishReddy_.jpg" alt="Tanish" />
+            <img src="src/Images/Team/TanishReddy_.jpg" alt="Tanish" />
           </figure>
           <div className="card-data">
             <h3>Tanish Samikommu</h3>
