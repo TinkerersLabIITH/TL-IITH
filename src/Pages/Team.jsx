@@ -240,6 +240,16 @@ const Team = () => {
           </div>
         </div>
 
+        <div className="card">
+          <figure>
+            <img src="./Team/TanishReddy_.jpg" alt="Tanish" />
+          </figure>
+          <div className="card-data">
+            <h3>Tanish Samikommu</h3>
+            <p>Design Coordinator</p>
+          </div>
+        </div>
+
       </div>
 
     </div>
