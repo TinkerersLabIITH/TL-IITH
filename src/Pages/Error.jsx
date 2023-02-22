@@ -1,12 +1,11 @@
 import React from "react";
-
 import { NavLink } from "react-router-dom";
 
 const Error = () => {
   return (
     <div className="flex flex-col items-center m-8">
       <figure>
-        <img src = "src/Images/error.svg" alt="error" className=""/>
+        <img src = "https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077863/error_ymfiwq.svg" alt="error" className=""/>
       </figure>
       <h2 className='md:text-4xl text-2xl font-bold py-8'>The site is under maintenance</h2>
       <NavLink to="/">

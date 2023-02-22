@@ -51,7 +51,7 @@ const Team = () => {
           title="Jarpula Bhanu Prasad"
           gradient="from-[#D8B4FE] to-[#818CF8]"
           Domain="Technical Coordinator"
-          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077014/VarunNadimpalli_rig0j2.jpg"
+          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077012/JarpulaBhanuPrasad_oogtne.jpg"
         />
         <ProfileCard
           title="Abhay Kumar"
@@ -141,7 +141,7 @@ const Team = () => {
           title="Devansh Agrawal"
           gradient="from-[#D8B4FE] to-[#818CF8]"
           Domain="PR and outreach Coordinator"
-          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077010/AdityaGupta_xo8job.jpg"
+          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077011/DevanshAgrawalpicture_c80a2s.jpg"
         />
       </div>
 
