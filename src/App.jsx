@@ -1,5 +1,6 @@
 import Home from './Pages/Home';
 import Event from './Pages/Event';
+import Error from './Pages/Error';
 import Blog from './Pages/Blog';
 import Inventory from './Pages/Inventory';
 import Team from './Pages/Team';
@@ -18,9 +19,9 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/team' element={<Team />} />
-          <Route path='/event' element={<Event />} />
-          <Route path='/inventory' element={<Inventory />} />
-          <Route path='/blog' element={<Blog />} />
+          <Route path='/event' element={<Error />} />
+          <Route path='/inventory' element={<Error />} />
+          <Route path='/blog' element={<Error />} />
           <Route path='/contacts' element={<Contacts />} />
         </Routes>
         <Footer />

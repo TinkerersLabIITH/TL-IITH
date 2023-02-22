@@ -1,12 +1,13 @@
 import React from 'react';
+import ProfileCard from '../Components/ProfileCard';
 
 const Team = () => {
   return (
-    <div>
-      <h2 className="common-heading">Our Team</h2>
+    <div className='flex flex-col items-center'>
+      <h2 className="md:text-6xl text-3xl font-bold pt-8">Our Team</h2>
 
-      <h2 className='title'>Head</h2>
-      <div className="container grid grid-one-column">
+      <h2 className='md:text-4xl text-2xl font-bold py-8'>Head</h2>
+      {/* <div className="container grid grid-one-column">
 
         <div className="card">
           <figure>
@@ -17,13 +18,42 @@ const Team = () => {
             <p>Overall Head</p>
           </div>
         </div>
+        
 
+      </div> */}
+      <ProfileCard
+        title="Rahul Aryan"
+        gradient="from-[#D8B4FE] to-[#818CF8]"
+        Domain="Overall Head"
+        ImagePath="src/Images/Team/RahulAryan.jpg"
+      />
+
+      <h2 className='md:text-4xl text-2xl font-bold py-8'>Managers</h2>
+      <div className='flex flex-col items-center max-w-[1240px] lg:flex-row '>
+      <ProfileCard
+        title="Samyak Joshi"
+        gradient="from-[#D8B4FE] to-[#818CF8]"
+        Domain="Overall Head"
+        ImagePath="src/Images/Team/Samyak.jpg"
+      />
+      <ProfileCard
+        title="Rahul Aryan"
+        gradient="from-[#D8B4FE] to-[#818CF8]"
+        Domain="Overall Head"
+        ImagePath="src/Images/Team/RahulAryan.jpg"
+      />
+      <ProfileCard
+        title="Rahul Aryan"
+        gradient="from-[#D8B4FE] to-[#818CF8]"
+        Domain="Overall Head"
+        ImagePath="src/Images/Team/RahulAryan.jpg"
+      />
       </div>
+      
 
-      <h2 className='title'>Managers</h2>
-      <div className="container grid grid-three-column">
+      {/* <div className="container grid grid-three-column">
 
-      <div className="card">
+        <div className="card">
           <figure>
             <img src="src/Images/Team/Samyak.jpg" alt="Samyak" />
           </figure>
@@ -53,14 +83,14 @@ const Team = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
 
       <h2 className='title'>Coordinators</h2>
 
       <div className="container grid grid-four-column">
 
-      <div className="card">
+        <div className="card">
           <figure>
             <img src="src/Images/Team/VarunNadimpalli.jpg" alt="varun" />
           </figure>
@@ -96,7 +126,7 @@ const Team = () => {
           </figure>
           <div className="card-data">
             <h3>Pranadipan Sahoo</h3>
-            <p>Technical , Inventory <br/> and finance Coordinator</p>
+            <p>Technical , Inventory <br /> and finance Coordinator</p>
           </div>
         </div>
 
