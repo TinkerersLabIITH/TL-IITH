@@ -32,7 +32,7 @@ const Team = () => {
         <ProfileCard
           title="Arpit Paida"
           gradient="from-[#D8B4FE] to-[#818CF8]"
-          Domain="Technical Manager"
+          Domain="Technical"
           ImagePath="src/Images/Team/Arpit.jpeg"
         />
       </div>
@@ -77,7 +77,7 @@ const Team = () => {
           title="Rishi Cheekatla"
           gradient="from-[#D8B4FE] to-[#818CF8]"
           Domain="Event Coordinator"
-          ImagePath="src/Images/Team/AbhayGupta.jpg"
+          ImagePath="src/Images/Team/Jagadeep.jpg"
         />
       </div>
 

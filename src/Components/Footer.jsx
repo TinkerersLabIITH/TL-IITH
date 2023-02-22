@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-300'>
 
                 <div className=''>
-                    <h1 className='w-full md:text-3xl  font-bold text-gray-100 pb-4'>Tinkerers Lab IITH</h1>
+                    <h1 className='w-full md:text-3xl  font-bold text-gray-100 pb-4'>Tinkerers' Lab IITH</h1>
                     <div className='flex flex-row items-center'>
                         <FaMapMarkerAlt />
                         <h2 className='font-medium text-md md:text-xl text-gray-400 p-2'>Location</h2>
