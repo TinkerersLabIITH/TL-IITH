@@ -47,7 +47,7 @@ const Navigationbar = () => {
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Event">Event</NavLink></li>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Inventory">Inventory</NavLink></li>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Blog">Blog</NavLink></li>
-                    <li className='p-4'><NavLink to="/Contact">Contact</NavLink></li>
+                    <li className='p-4' onClick={handleNav}><NavLink to="/Contacts">Contact</NavLink></li>
                     
                 </ul>
                 </div>
