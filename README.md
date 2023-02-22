@@ -35,4 +35,4 @@ npm run dev
 
 to view the blog locally.
 
-Follow the guidelines mentioned in the  to start contributing to the repo.
+Follow the guidelines mentioned in the [CONTRIBUTING.md](./CONTRIBUTING.md) to start contributing to the repo.
