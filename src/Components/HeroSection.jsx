@@ -4,11 +4,12 @@ import Logo from '../Images/LogoCopy.svg';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
+
 const HeroSection = () => {
 
   const slides = [
-    { url: 'src/Images/Gallery/TinkeringNight.jpg', },
-    { url: 'src/Images/Gallery/Tinkering-101.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/TinkeringNight_vnz9cb.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/Tinkering-101_exxe0o.jpg', },
 
   ];
 
