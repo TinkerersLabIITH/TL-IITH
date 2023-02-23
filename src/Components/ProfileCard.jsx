@@ -12,7 +12,7 @@ export default function ProfileCard({ title, ImagePath, Domain, gradient }) {
         <figure>
           <img src={ImagePath} alt={title} className='h-50 w-50 rounded-full ' />
         </figure>
-        <p className='font-bold text-3xl p-2'>{title}</p>
+        <p className='font-bold text-3xl p-2 text-center'>{title}</p>
         <p className='font-bold  color text-gray-500'>{Domain}</p>
       </div>
 

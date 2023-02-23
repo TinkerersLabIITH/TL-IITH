@@ -34,18 +34,18 @@ const HeroSection = () => {
   return (
     <div>
       {/* This is the header section */}
-      <header className='max-w-[1240px]flex flex-row items-center pb-12 bg-purple-50'>
+      <header className='max-w-[1240px]flex flex-row items-center pb-12 bg-purple-50 px-12'>
 
         <div className="flex justify-between mx-auto max-w-[1240px] items-center pt-16">
-          <div className="section-hero-data">
-            <h1 className="md:text-7xl text-6xl font-bold p-2 "> Tinkerers' Laboratory</h1>
-            <p className='font-semibold px-4 pb-4 text-gray-600 text-xl md:text-2xl'>Think. Tinker. Transform</p>
-            <NavLink className="border-4 border-purple-400 px-4 py-2 ml-4 rounded-full text-white font-bold text-xl bg-purple-900" to="/contacts">Reach us</NavLink>
+          <div className="flex flex-col justify-center">
+            <h1 className="lg:text-7xl text-6xl font-bold p-2 text-center sm:text-left"> Tinkerers' Laboratory</h1>
+            <p className='font-semibold px-4 pb-8 text-gray-600 text-xl lg:text-2xl text-center sm:text-left'>Think. Tinker. Transform</p>
+            <NavLink className="border-4 border-purple-400 px-4 py-2 mx-4 rounded-full text-white font-bold text-xl bg-purple-900 text-center md:w-1/2 " to="/contacts">Reach us</NavLink>
           </div>
 
           <div className="section-hero-image">
             <picture>
-              <img className='w-40% mx-auto my-4' src={Logo} alt="tinkrers-image" />
+              <img className='w-40% mx-auto my-4 hidden sm:block' src={Logo} alt="tinkrers-image" />
             </picture>
           </div>
         </div>
@@ -54,28 +54,28 @@ const HeroSection = () => {
       <div className="p-8 flex flex-col items-center ">
         <h2 className='text-2xl md:text-4xl pb-8 px-6 font-bold'>Our Aim</h2>
         <hr className='w-2/5  border-purple-400 py-4' />
-        <p className='align-center font-semibold px-6'>Here, at Tinkerers' Lab, our aim is to provide you a working space with <br />vast ranges of tools in order to bring out the inner tinkerer in you</p>
+        <p className='align-center font-semibold px-12 text-center'>Here, at Tinkerers' Lab, our aim is to provide you a working space with vast ranges of tools in order to bring out the inner tinkerer in you</p>
 
         <div className='flex flex-col items-center max-w-[1240px] lg:flex-row  mx-12'>
-          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full md:w-1/3 bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[300px]'>
+          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full xl:w-1/3  bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[320px]'>
             <div className="flex flex-col  h-full bg-white rounded-lg p-4 items-center">
-              <p className='font-bold text-3xl px-6 py-4 mb-8'>Always Available</p>
-              <p className='font-bold  color text-gray-500 '>We know that the best ideas don't always come to us during work hours. Tinkerers' Lab is open 24/7, giving you the liberty to build and innovate whenever.</p>
+              <p className='font-bold text-3xl px-6 py-4 mb-4 xl:mb-8 text-center'>Always Available</p>
+              <p className='font-bold  color text-gray-500 text-center'>We know that the best ideas don't always come to us during work hours. Tinkerers' Lab is open 24/7, giving you the liberty to build and innovate whenever.</p>
             </div>
           </div>
 
 
-          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full md:w-1/3 bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[300px]'>
+          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full xl:w-1/3 bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[320px]'>
             <div className="flex flex-col  h-full bg-white rounded-lg p-4 items-center">
-              <p className='font-bold text-3xl px-6 py-4 mb-8'>Resources</p>
-              <p className='font-bold  color text-gray-500'>We have a wide range of resources ,from the commonplace Raspberry Pis and Arduinos to CNCs and 3D Printers. </p>
+              <p className='font-bold text-3xl px-6 py-4 mb-4 xl:mb-8 text-center'>Resources</p>
+              <p className='font-bold  color text-gray-500 text-center'>We have a wide range of resources ,from the commonplace Raspberry Pis and Arduinos to CNCs and 3D Printers. </p>
             </div>
           </div>
 
-          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full md:w-1/3 bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[300px]'>
+          <div className='transform hover:scale-[1.01] transition-all rounded-xl w-full xl:w-1/3 bg-gradient-to-r p-1 m-8 from-[#D8B4FE] to-[#818CF8] lg:h-[320px]'>
             <div className="flex flex-col  h-full bg-white rounded-lg p-4 items-center">
-              <p className='font-bold text-3xl px-6 py-4 mb-8'>TL Talks</p>
-              <p className='font-bold  color text-gray-500'>TL will host talks and sessions with innovators and entrepreneurs to boost the interest in new fields and push boundaries.</p>
+              <p className='font-bold text-3xl px-6 py-4 mb-4 xl:mb-8 text-center'>TL Talks</p>
+              <p className='font-bold  color text-gray-500 text-center'>TL will host talks and sessions with innovators and entrepreneurs to boost the interest in new fields and push boundaries.</p>
             </div>
           </div>
         </div>
@@ -156,20 +156,20 @@ const HeroSection = () => {
 
       </section> */}
 
-      <div className="p-8 flex flex-col items-center bg-purple-50">
+      <div className="py-8 px-4 flex flex-col items-center bg-purple-50">
         <h2 className='text-2xl md:text-4xl pb-2 px-6 font-bold'>Gallery</h2>
 
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-12 px-4 relative group'>
-          <div
-            style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-            className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
-          ></div>
+        <div className='max-w-[1240px] w-full py-12  relative group'>
+          <div className='w-full rounded-2xl bg-center bg-cover duration-500 transform ease-in-out'>
+          <img src={slides[currentIndex].url} alt='title' className='rounded-2xl bg-center bg-cover duration-500' />
+          </div>
+          
           {/* Left Arrow */}
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+          <div className='hidden md:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
             <BsChevronCompactLeft onClick={prevSlide} size={30} />
           </div>
           {/* Right Arrow */}
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+          <div className='hidden md:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
             <BsChevronCompactRight onClick={nextSlide} size={30} />
           </div>
           <div className='flex top-4 justify-center py-2'>
