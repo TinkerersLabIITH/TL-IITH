@@ -21,19 +21,19 @@ const Team = () => {
         <ProfileCard
           title="Samyak Joshi"
           gradient="from-[#D8B4FE] to-[#818CF8]"
-          Domain="Events, Inventory and Finance"
+          Domain="Events, Inventory and Finance Manager"
           ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077013/Samyak_n5reww.jpg"
         />
         <ProfileCard
           title="Rahul Aryan"
           gradient="from-[#D8B4FE] to-[#818CF8]"
-          Domain="Design, PR and Outreach"
+          Domain="Design, PR and Outreach Manager"
           ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077012/RahulAryan_oyf1l2.jpg"
         />
         <ProfileCard
           title="Arpit Paida"
           gradient="from-[#D8B4FE] to-[#818CF8]"
-          Domain="Technical"
+          Domain="Technical Manager"
           ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077010/Arpit_cxmolt.jpg"
         />
       </div>
@@ -65,7 +65,7 @@ const Team = () => {
         <ProfileCard
           title="Pranadipan Sahoo"
           gradient="from-[#D8B4FE] to-[#818CF8]"
-          Domain="Technical, Finance, Inventory"
+          Domain="Technical, Finance, Inventory Coordinator"
           ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077014/Pranadeepan_juk1vw.png"
         />
         <ProfileCard
@@ -78,7 +78,7 @@ const Team = () => {
           title="Rishi Cheekatla"
           gradient="from-[#D8B4FE] to-[#818CF8]"
           Domain="Event Coordinator"
-          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677077011/Jagadeep_w1p6qm.jpg"
+          ImagePath="https://res.cloudinary.com/dtmgysc9y/image/upload/v1677392457/Rishi_Cheekatla_ozwp3v.jpg"
         />
       </div>
 
