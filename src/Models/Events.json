@@ -1,0 +1,34 @@
+{
+    "Events": [
+        {
+            "NameOfEvent": "First event",
+            "ImagePath" : "src/Images/Event/Aadil.jpeg",
+            "Description": "This is the brief Description of the event",
+            "TimeOfEvent": "date of event",
+            "Sponsers": "name of the sponsers",
+            "EventDetails": "what happend in the event this is long",
+            "impLinks": "hyper links",
+            "isLatest" : false
+        },
+        {
+            "NameOfEvent": "second event",
+            "ImagePath" : "src/Images/Event/AbhayGupta.jpg",
+            "Description": "This is the brief Description of the event",
+            "TimeOfEvent": "date of event",
+            "Sponsers": "name of the sponsers",
+            "EventDetails": "what happend in the event this is long",
+            "impLinks": "hyper links",
+            "isLatest" : false
+        },
+        {
+            "NameOfEvent": "Third event",
+            "ImagePath" : "src/Images/Event/AdityaGupta.jpg",
+            "Description": "This is the brief Description of the event",
+            "TimeOfEvent": "date of event",
+            "Sponsers": "name of the sponsers",
+            "EventDetails": "what happend in the event this is long",
+            "impLinks": "hyper links",
+            "isLatest" : true
+        }
+    ]
+}
