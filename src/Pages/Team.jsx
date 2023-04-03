@@ -5,9 +5,9 @@ const Team = () => {
 
   return (
     <div className='flex flex-col items-center'>
-      <h2 className="text-6xl  font-bold pt-8">Our Team</h2>
+      <h2 className="text-4xl md:text-6xl font-bold pt-8">Our Team</h2>
       <div className='flex flex-col mx-12 items-center'>
-        <h2 className='text-4xl font-bold py-8'>Head</h2>
+        <h2 className='text-2xl md:text-4xl font-bold py-8'>Head</h2>
         <ProfileCard
           title="Aadil Salim"
           gradient="from-[#D8B4FE] to-[#818CF8]"

@@ -30,7 +30,7 @@ const Navigationbar = () => {
                 <ul className='hidden md:flex flex-row justify-between font-bold '>
                     <li className='p-4'><NavLink to="/">Home</NavLink></li>
                     <li className='p-4'><NavLink to="/Team">Team</NavLink></li>
-                    <li className='p-4'><NavLink to="/Event">Event</NavLink></li>
+                    <li className='p-4'><NavLink to="/Event">Events</NavLink></li>
                     <li className='p-4'><NavLink to="/Inventory">Inventory</NavLink></li>
                     <li className='p-4'><NavLink to="/Blog">Blog</NavLink></li>
                     <li className='p-4'><NavLink to="/Contacts">Contact</NavLink></li>
@@ -44,7 +44,7 @@ const Navigationbar = () => {
                 <ul>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/">Home</NavLink></li>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Team">Team</NavLink></li>
-                    <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Event">Event</NavLink></li>
+                    <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Event">Events</NavLink></li>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Inventory">Inventory</NavLink></li>
                     <li className='p-4 border-b border-gray-600' onClick={handleNav}><NavLink to="/Blog">Blog</NavLink></li>
                     <li className='p-4' onClick={handleNav}><NavLink to="/Contacts">Contact</NavLink></li>
