@@ -8,8 +8,10 @@ import { RxDotFilled } from 'react-icons/rx';
 const HeroSection = () => {
 
   const slides = [
-    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/TinkeringNight_vnz9cb.jpg', },
-    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/Tinkering-101_exxe0o.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1677076964/TinkeringNight_vnz9cb.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1677076964/Tinkering-101_exxe0o.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1680704242/Tinkering-101_chp1_garh60.jpg', },
+    { url: 'https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1680704116/cybercon_xaqtj0.jpg', }
 
   ];
 

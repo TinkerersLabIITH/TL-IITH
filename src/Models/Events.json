@@ -2,7 +2,7 @@
     "Events": [
         {
             "NameOfEvent": "Cybercon-2023",
-            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/Tinkering-101_exxe0o.jpg",
+            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1680704116/cybercon_xaqtj0.jpg",
             "Description": "Flagship event of Kludge-IITH where we have collabrated",
             "TimeOfEvent": "31st Mar 2023",
             "Sponsers": "name of the sponsers",
@@ -12,17 +12,17 @@
         },
         {
             "NameOfEvent": "Tinkering-101 Episode-2",
-            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/Tinkering-101_exxe0o.jpg",
+            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1677076964/Tinkering-101_exxe0o.jpg",
             "Description": "Second Iteration of our interactive session teaching out IOTs",
             "TimeOfEvent": "31st Jan 2023",
             "Sponsers": "name of the sponsers",
-            "EventDetails": "Second Iteration of our interactive session teaching out IOTs",
+            "EventDetails": "Second Iteration of our interactive session teaching about IOTs",
             "impLinks": "hyper links",
             "isLatest" : false
         },
         {
             "NameOfEvent": "Tinkering-101 Episode-1",
-            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/Tinkering-101_exxe0o.jpg",
+            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1680704242/Tinkering-101_chp1_garh60.jpg",
             "Description": "First Iteration of our interactive session teaching basic components like Arduino and Raspi",
             "TimeOfEvent": "31st Aug 2022",
             "Sponsers": "name of the sponsers",
@@ -32,7 +32,7 @@
         },
         {
             "NameOfEvent": "Tinkering Night",
-            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/v1677076964/TinkeringNight_vnz9cb.jpg",
+            "ImagePath" : "https://res.cloudinary.com/dtmgysc9y/image/upload/w_1600,h_900,c_fill/v1677076964/TinkeringNight_vnz9cb.jpg",
             "Description": "Our flagship event held once a year bring innovators to work on their ideas within a span of night",
             "TimeOfEvent": "23rd Nov 2022",
             "Sponsers": "name of the sponsers",
